@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta discription="my portfolio">
+    <title>Ankita: portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ouput.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="root antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+        <nav class="navbar sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50  bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent">
+            <div class="left">
+                <div class="font"><span>portfolio</span></div>
+            </div>
+            <div class="right">
+                <a href="#about" class="nav">About</a>
+                <a href="#education" class="nav">Education</a>
+                <a href="#skills" class="nav">Skills</a>
+                <a href="#projects" class="nav">Projects</a>
+            </div>
+        </nav>
+        <section id="greet">
+            <div class="info">
+                <div class="information"><span class="name">Hello, I am Ankita</span>
+                    <br>
+                    <span>I am a </span>
+                    <span class="txt-type" data-wait='1000' data-words='["Competitive Programmer","Web Developer"]'></span>
+                    <br>
+                    <p>Welcome to my portfolio, know about my work , skills and projects here!</p></div>
+                <!-- <div class="lp"><img src="assets/bg10-removebg-preview (2).png" alt="" srcset=""></div> -->
+            </div>
+        </section>
+        <section id="about" class="sections">
+            <div class="heading">
+                <p class="intro">INTRODUCTION</p>
+                <p class="over">OVERVIEW</p>
+            </div>
+            <div class="explain">
+                <p class="someting">
+                    Ankita is a computer Engineering student and a programmer,
+                    showcasing her talent through some projects. With a solid acedemic foundation in computer science and its core subjects and a passion for problem-solving, Ankita is able to deliver the best possible solutions of some intricate challenges.Her portfolio showcases a diverse range of projects and accomplishments, highlighting his dedication to excellence in every endeavor.
+                </p>
+            </div>
+            <div class="but">
+                <button class="button">
+                    <a href="Resume">
+                        Resume
+                    </a>
+                </button>
+                <button class="button">
+                    <a href="githubprofile">
+                        Github
+                    </a>
+                </button>
+                <button class="button">
+                    <a href="linkedinProfile">
+                        LinkedIn
+                    </a>
+                </button>
+            </div>
+        </section>
+        <section id="education" class="sections">
+            <div class="heading2">
+                <p class="intro">WHAT I HAVE STUDIED SO FAR</p>
+                <h2 class="over">EDUCATION</h2>
+            </div>
+            <div class="boxing">
+                <div class="line">
+                    <div class="stat">
+
+                    </div>
+                    <div class="content">
+                        <div class="card">
+                            <div class="degree">
+                                Computer Engineering
+                            </div>
+                            <div class="institue">
+                                JC Bose University of Science and Technology, YMCA, Faridabad
+                            </div>
+                            <div class="card-info">
+                                <ul class="list title">
+                                    <li>2022 - present</li>
+                                    <li>CGPA: 9.1</li>
+                                    <li><span class="deco">Courses Undertaken:</span> Object Oriented Programming, Operating Systems, Database Systems, Theory of Computing, Computer Networks, Data Structures and Algorithms, Machine Learning, Discrete Mathematics</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="degree">
+                                High School
+                            </div>
+                           <div class="institue">
+                                Baba Ram Das Vidyapeeth, Kulvehri, Karnal
+                           </div> 
+                           <div class="card-info">
+                            <ul class="list">
+                                <li>2019 - 2022</li>
+                                <li>Percentage: 94.8%</li>
+                           </ul>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section id="skills" class="sections">
+            <div class="heading2">
+                <h2 class="over">SKILLS</h2>
+            </div>
+            <div class="flexbox">
+                <div class="child cardx" id ="b1">
+                    <img id = "ch1" src="assets/html.png" alt="">
+                </div>
+                <div class="child cardx" id ="b2">
+                    <img id = "ch2" src="assets/cpp.png" alt="">
+                </div>
+                <div class="child cardx" id = "b3">
+                    <img id = "ch3" src="assets/js.png" alt="">
+                </div>
+                <div class="child cardx" id = "b4">
+                    <img id = "ch4" src="assets/react.png" alt="">
+                </div>
+                <div class="child cardx" id = "b5">
+                    <img id = "ch5" src="assets/tailwind.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
